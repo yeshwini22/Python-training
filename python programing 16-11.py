@@ -1,7 +1,11 @@
+
 import random
+
 choices = ["stone", "paper", "scissors"]
+
 player1 = random.choice(choices)
 player2 = random.choice(choices)
+
 print("Player 1:", player1)
 print("Player 2:", player2)
 
@@ -14,4 +18,4 @@ elif player1 == "paper" and player2 == "stone":
 elif player1 == "scissors" and player2 == "paper":
     print("Player 1 wins.")
 else:
-    print("Player 2 wins")
+    print("Player 2 wins.")
